@@ -1,0 +1,66 @@
+2023-12-06 13:35:39,874 INFO: PyABSA version: 2.3.4
+2023-12-06 13:35:39,875 INFO: Transformers version: 4.29.0
+2023-12-06 13:35:39,877 INFO: Torch version: 2.1.1+cpu+cudaNone
+2023-12-06 13:35:39,878 INFO: Device: Unknown
+2023-12-06 13:35:39,880 INFO: Restaurant14 in the trainer is not a exact path, will search dataset in current working directory
+2023-12-06 13:35:48,057 INFO: You can set load_aug=True in a trainer to augment your dataset (English only yet) and improve performance.
+2023-12-06 13:35:58,528 INFO: Load dataset from integrated_datasets\aste_datasets\400.SemEval\402.Restaurant14\train.txt
+2023-12-06 13:36:18,481 INFO: Load dataset from integrated_datasets\aste_datasets\400.SemEval\402.Restaurant14\test.txt
+2023-12-06 13:36:26,932 INFO: Load dataset from integrated_datasets\aste_datasets\400.SemEval\402.Restaurant14\dev.txt
+2023-12-06 13:38:01,161 INFO: Save cache dataset to emcgcn.Restaurant14.dataset.23d05cd00cabf7cd0a9795af5da3e7bfbf3c6376106c9b13d8e8a3f4f2a06c33.cache
+2023-12-06 13:44:07,675 INFO: ***** Running training for Aspect Sentiment Triple Extraction *****
+2023-12-06 13:44:07,677 INFO: Training set examples = 1265
+2023-12-06 13:44:07,679 INFO: Valid set examples = 310
+2023-12-06 13:44:07,680 INFO: Test set examples = 490
+2023-12-06 13:44:07,682 INFO: Total params = 185532488, Trainable params = 185532488, Non-trainable params = 0
+2023-12-06 13:44:07,684 INFO: Batch size = 16
+2023-12-06 13:44:07,685 INFO: Num steps = 800
+2023-12-06 21:50:37,583 INFO: 
+----------------------------------------------------------- Raw Metric Records -----------------------------------------------------------
+╒═════════════╤════════════════════════════════════════════════════════╤══════════╤═══════════╤══════════╤═══════╤═══════╤═══════╤═══════╕
+│ Metric      │ Trial                                                  │ Values   │  Average  │  Median  │  Std  │  IQR  │  Min  │  Max  │
+╞═════════════╪════════════════════════════════════════════════════════╪══════════╪═══════════╪══════════╪═══════╪═══════╪═══════╪═══════╡
+│ Max-Test-F1 │ emcgcn-Restaurant14-yangheng/deberta-v3-base-absa-v1.1 │ [66.32]  │   66.32   │  66.32   │   0   │   0   │ 66.32 │ 66.32 │
+╘═════════════╧════════════════════════════════════════════════════════╧══════════╧═══════════╧══════════╧═══════╧═══════╧═══════╧═══════╛
+-------------------------------------------- https://github.com/yangheng95/metric_visualizer --------------------------------------------
+
+2023-12-06 21:50:51,801 INFO: Load dataset from integrated_datasets\aste_datasets\400.SemEval\402.Restaurant14\train.txt
+2023-12-06 21:51:13,156 INFO: Load dataset from integrated_datasets\aste_datasets\400.SemEval\402.Restaurant14\test.txt
+2023-12-06 21:51:21,193 INFO: Load dataset from integrated_datasets\aste_datasets\400.SemEval\402.Restaurant14\dev.txt
+2023-12-06 21:52:49,068 INFO: Save cache dataset to emcgcn.Restaurant14.dataset.fc2568787ac9f48d06b05e29e6683ff4f8ebd3d99e5a871069892c1ad1e85c2a.cache
+2023-12-06 21:53:07,965 INFO: ***** Running training for Aspect Sentiment Triple Extraction *****
+2023-12-06 21:53:07,967 INFO: Training set examples = 1265
+2023-12-06 21:53:07,969 INFO: Valid set examples = 310
+2023-12-06 21:53:07,971 INFO: Test set examples = 490
+2023-12-06 21:53:07,973 INFO: Total params = 185532488, Trainable params = 185532488, Non-trainable params = 0
+2023-12-06 21:53:07,975 INFO: Batch size = 16
+2023-12-06 21:53:07,977 INFO: Num steps = 800
+2023-12-07 05:51:24,205 INFO: 
+-------------------------------------------------------------- Raw Metric Records --------------------------------------------------------------
+╒═════════════╤════════════════════════════════════════════════════════╤════════════════╤═══════════╤══════════╤═══════╤═══════╤═══════╤═══════╕
+│ Metric      │ Trial                                                  │ Values         │  Average  │  Median  │  Std  │  IQR  │  Min  │  Max  │
+╞═════════════╪════════════════════════════════════════════════════════╪════════════════╪═══════════╪══════════╪═══════╪═══════╪═══════╪═══════╡
+│ Max-Test-F1 │ emcgcn-Restaurant14-yangheng/deberta-v3-base-absa-v1.1 │ [66.32, 68.15] │   67.23   │  67.23   │ 0.92  │ 0.92  │ 66.32 │ 68.15 │
+╘═════════════╧════════════════════════════════════════════════════════╧════════════════╧═══════════╧══════════╧═══════╧═══════╧═══════╧═══════╛
+----------------------------------------------- https://github.com/yangheng95/metric_visualizer -----------------------------------------------
+
+2023-12-07 05:51:36,340 INFO: Load dataset from integrated_datasets\aste_datasets\400.SemEval\402.Restaurant14\train.txt
+2023-12-07 05:51:59,388 INFO: Load dataset from integrated_datasets\aste_datasets\400.SemEval\402.Restaurant14\test.txt
+2023-12-07 05:52:08,282 INFO: Load dataset from integrated_datasets\aste_datasets\400.SemEval\402.Restaurant14\dev.txt
+2023-12-07 05:53:38,833 INFO: Save cache dataset to emcgcn.Restaurant14.dataset.da62f97394e6c922ec9fd155a8cb4979045a86973c67b7e28577a420d5910fd8.cache
+2023-12-07 05:53:57,661 INFO: ***** Running training for Aspect Sentiment Triple Extraction *****
+2023-12-07 05:53:57,663 INFO: Training set examples = 1265
+2023-12-07 05:53:57,665 INFO: Valid set examples = 310
+2023-12-07 05:53:57,666 INFO: Test set examples = 490
+2023-12-07 05:53:57,667 INFO: Total params = 185532488, Trainable params = 185532488, Non-trainable params = 0
+2023-12-07 05:53:57,669 INFO: Batch size = 16
+2023-12-07 05:53:57,670 INFO: Num steps = 800
+2023-12-07 13:57:16,131 INFO: 
+----------------------------------------------------------------- Raw Metric Records -----------------------------------------------------------------
+╒═════════════╤════════════════════════════════════════════════════════╤═══════════════════════╤═══════════╤══════════╤═══════╤═══════╤═══════╤═══════╕
+│ Metric      │ Trial                                                  │ Values                │  Average  │  Median  │  Std  │  IQR  │  Min  │  Max  │
+╞═════════════╪════════════════════════════════════════════════════════╪═══════════════════════╪═══════════╪══════════╪═══════╪═══════╪═══════╪═══════╡
+│ Max-Test-F1 │ emcgcn-Restaurant14-yangheng/deberta-v3-base-absa-v1.1 │ [66.32, 68.15, 68.42] │   67.63   │  68.15   │ 0.93  │ 1.05  │ 66.32 │ 68.42 │
+╘═════════════╧════════════════════════════════════════════════════════╧═══════════════════════╧═══════════╧══════════╧═══════╧═══════╧═══════╧═══════╛
+--------------------------------------------------- https://github.com/yangheng95/metric_visualizer ---------------------------------------------------
+

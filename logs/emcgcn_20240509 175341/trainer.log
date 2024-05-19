@@ -1,0 +1,18 @@
+2024-05-09 17:55:47,638 INFO: PyABSA version: 2.3.4
+2024-05-09 17:55:47,640 INFO: Transformers version: 4.32.1
+2024-05-09 17:55:47,642 INFO: Torch version: 2.1.1+cpu+cudaNone
+2024-05-09 17:55:47,646 INFO: Device: Unknown
+2024-05-09 17:55:47,649 INFO: aste_datasets in the trainer is not a exact path, will search dataset in current working directory
+2024-05-09 17:55:55,177 INFO: You can set load_aug=True in a trainer to augment your dataset (English only yet) and improve performance.
+2024-05-09 17:55:57,894 INFO: Load dataset from integrated_datasets\aste_datasets\123.test_dataset\train.dat.apc
+2024-05-09 17:56:02,074 INFO: Load dataset from integrated_datasets\aste_datasets\123.test_dataset\test.dat.apc
+2024-05-09 17:56:02,120 INFO: Load dataset from integrated_datasets\aste_datasets\123.test_dataset\dev.dat.apc
+2024-05-09 17:56:04,913 INFO: Load dataset from integrated_datasets\aste_datasets\123.test_dataset\dev.dat.apc
+2024-05-09 17:56:18,122 INFO: Save cache dataset to emcgcn.aste_datasets.dataset.d272a8c3047f1a2617c7591d8e760f929dedc14b2de9367ec3851f8e47d17bac.cache
+2024-05-09 17:57:19,016 INFO: ***** Running training for Aspect Sentiment Triple Extraction *****
+2024-05-09 17:57:19,027 INFO: Training set examples = 63
+2024-05-09 17:57:19,030 INFO: Valid set examples = 13
+2024-05-09 17:57:19,031 INFO: Test set examples = 27
+2024-05-09 17:57:19,033 INFO: Total params = 337072626, Trainable params = 337072626, Non-trainable params = 0
+2024-05-09 17:57:19,034 INFO: Batch size = 16
+2024-05-09 17:57:19,036 INFO: Num steps = 40

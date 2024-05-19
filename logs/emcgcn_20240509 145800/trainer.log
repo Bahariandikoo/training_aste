@@ -1,0 +1,17 @@
+2024-05-09 14:59:13,870 INFO: PyABSA version: 2.3.4
+2024-05-09 14:59:13,874 INFO: Transformers version: 4.32.1
+2024-05-09 14:59:13,890 INFO: Torch version: 2.1.1+cpu+cudaNone
+2024-05-09 14:59:13,896 INFO: Device: Unknown
+2024-05-09 14:59:13,900 INFO: Restaurant14 in the trainer is not a exact path, will search dataset in current working directory
+2024-05-09 14:59:25,626 INFO: You can set load_aug=True in a trainer to augment your dataset (English only yet) and improve performance.
+2024-05-09 14:59:39,654 INFO: Load dataset from integrated_datasets\aste_datasets\400.SemEval\402.Restaurant14\train.txt
+2024-05-09 15:00:45,746 INFO: Load dataset from integrated_datasets\aste_datasets\400.SemEval\402.Restaurant14\test.txt
+2024-05-09 15:01:07,028 INFO: Load dataset from integrated_datasets\aste_datasets\400.SemEval\402.Restaurant14\dev.txt
+2024-05-09 15:04:06,182 INFO: Save cache dataset to emcgcn.Restaurant14.dataset.8ce907876dbc82971bb271ccce0ae654150747c0608a6318c227b397b4719fdf.cache
+2024-05-09 15:05:03,919 INFO: ***** Running training for Aspect Sentiment Triple Extraction *****
+2024-05-09 15:05:04,043 INFO: Training set examples = 1265
+2024-05-09 15:05:04,046 INFO: Valid set examples = 310
+2024-05-09 15:05:04,047 INFO: Test set examples = 490
+2024-05-09 15:05:04,049 INFO: Total params = 185532488, Trainable params = 185532488, Non-trainable params = 0
+2024-05-09 15:05:04,053 INFO: Batch size = 16
+2024-05-09 15:05:04,057 INFO: Num steps = 800

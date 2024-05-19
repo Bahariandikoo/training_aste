@@ -1,0 +1,45 @@
+2024-05-09 12:00:46,259 INFO: PyABSA version: 2.3.4
+2024-05-09 12:00:46,262 INFO: Transformers version: 4.35.2
+2024-05-09 12:00:46,264 INFO: Torch version: 2.1.1+cpu+cudaNone
+2024-05-09 12:00:46,266 INFO: Device: Unknown
+2024-05-09 12:00:46,271 INFO: custom_dataset in the trainer is not a exact path, will search dataset in current working directory
+2024-05-09 12:01:09,067 INFO: You can set load_aug=True in a trainer to augment your dataset (English only yet) and improve performance.
+2024-05-09 12:01:09,079 INFO: No custom_dataset found in current working directory, will search dataset from https://github.com/yangheng95/ABSADatasets
+2024-05-09 12:01:09,143 INFO: Datasets already exist in d:\0.TA\test_code\astepyabsa\integrated_datasets, skip download
+2024-05-09 12:01:10,296 INFO: You can set load_aug=True in a trainer to augment your dataset (English only yet) and improve performance.
+2024-05-09 12:03:01,532 INFO: PyABSA version: 2.3.4
+2024-05-09 12:03:01,535 INFO: Transformers version: 4.35.2
+2024-05-09 12:03:01,541 INFO: Torch version: 2.1.1+cpu+cudaNone
+2024-05-09 12:03:01,543 INFO: Device: Unknown
+2024-05-09 12:03:01,545 INFO: custom_dataset in the trainer is not a exact path, will search dataset in current working directory
+2024-05-09 12:03:02,819 INFO: You can set load_aug=True in a trainer to augment your dataset (English only yet) and improve performance.
+2024-05-09 12:03:02,827 INFO: No custom_dataset found in current working directory, will search dataset from https://github.com/yangheng95/ABSADatasets
+2024-05-09 12:03:02,889 INFO: Datasets already exist in d:\0.TA\test_code\astepyabsa\integrated_datasets, skip download
+2024-05-09 12:03:04,339 INFO: You can set load_aug=True in a trainer to augment your dataset (English only yet) and improve performance.
+2024-05-09 12:04:11,478 INFO: PyABSA version: 2.3.4
+2024-05-09 12:04:11,481 INFO: Transformers version: 4.35.2
+2024-05-09 12:04:11,482 INFO: Torch version: 2.1.1+cpu+cudaNone
+2024-05-09 12:04:11,486 INFO: Device: Unknown
+2024-05-09 12:04:11,492 INFO: custom_dataset in the trainer is not a exact path, will search dataset in current working directory
+2024-05-09 12:04:15,953 INFO: You can set load_aug=True in a trainer to augment your dataset (English only yet) and improve performance.
+2024-05-09 12:04:15,959 INFO: No custom_dataset found in current working directory, will search dataset from https://github.com/yangheng95/ABSADatasets
+2024-05-09 12:04:15,998 INFO: Datasets already exist in d:\0.TA\test_code\astepyabsa\integrated_datasets, skip download
+2024-05-09 12:04:17,165 INFO: You can set load_aug=True in a trainer to augment your dataset (English only yet) and improve performance.
+2024-05-09 12:06:02,248 INFO: PyABSA version: 2.3.4
+2024-05-09 12:06:02,254 INFO: Transformers version: 4.35.2
+2024-05-09 12:06:02,260 INFO: Torch version: 2.1.1+cpu+cudaNone
+2024-05-09 12:06:02,263 INFO: Device: Unknown
+2024-05-09 12:06:02,265 INFO: aste_datasets in the trainer is not a exact path, will search dataset in current working directory
+2024-05-09 12:06:03,555 INFO: You can set load_aug=True in a trainer to augment your dataset (English only yet) and improve performance.
+2024-05-09 12:06:13,063 INFO: Load dataset from integrated_datasets\aste_datasets\123.test_dataset\train.dat.apc
+2024-05-09 12:06:17,575 INFO: Load dataset from integrated_datasets\aste_datasets\123.test_dataset\dev.dat.apc
+2024-05-09 12:06:17,618 INFO: Load dataset from integrated_datasets\aste_datasets\123.test_dataset\test.dat.apc
+2024-05-09 12:06:19,875 INFO: Load dataset from integrated_datasets\aste_datasets\123.test_dataset\dev.dat.apc
+2024-05-09 12:06:37,561 INFO: Save cache dataset to emcgcn.aste_datasets.dataset.161ade2606338526d23494eaab73d3688e49dc3fa45f00265a812739c3c47808.cache
+2024-05-09 12:18:12,439 INFO: ***** Running training for Aspect Sentiment Triple Extraction *****
+2024-05-09 12:18:14,083 INFO: Training set examples = 63
+2024-05-09 12:18:14,087 INFO: Valid set examples = 13
+2024-05-09 12:18:14,089 INFO: Test set examples = 27
+2024-05-09 12:18:14,091 INFO: Total params = 337072626, Trainable params = 337072626, Non-trainable params = 0
+2024-05-09 12:18:14,143 INFO: Batch size = 16
+2024-05-09 12:18:14,146 INFO: Num steps = 40
